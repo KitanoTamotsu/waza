@@ -1,0 +1,2 @@
+# waza
+Alfred workflow
