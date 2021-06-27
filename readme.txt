@@ -1,5 +1,7 @@
 #urawaza.alfredworkflowのメモ
 
+aa
+
 ##機能：
   ランダムに裏技を表示させる
 
