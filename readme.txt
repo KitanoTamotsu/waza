@@ -4,7 +4,7 @@
   ランダムに裏技を表示させる
 
 ##インストール：
-  1.[alfredworkflow](https://kitanotamotsu.github.io/waza/裏技.alfredworkflow)をダウンロード
+  1.[alfredworkflow](裏技.alfredworkflow)をダウンロード
   2.ファイルをダブルクリックしてワークフローに登録
 
 ##使い方：
