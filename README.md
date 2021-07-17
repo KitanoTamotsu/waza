@@ -1,5 +1,65 @@
 ## 　　Lesson30.　GitHubのHPを作ってみる 
 #### 開発メモ
+### 0.GitHubのHP
+　リポジトリを作成、そのリポジトリページのメニューからSettingsメニューを選択
+<br>　GitHub Pagesという項目があるので、Click iy out here!をクリック
+<br>　Sourceは、Branch:main /(root) を選択してSave
+<br>　Change Theme ボタンから好きなテーマを選択
+<br>　ちなみに私の場合は『Leap Day』
+<br>　たぶん設定はこのくらい
+<br>　リポジトリページに戻って下記の3つのファイルを作成
+<br>　mainに置いていますが、ブランチを作りたい場合はsettingsも変更要です
+<br>　
+<br>　1.style.scss
+<br>　add fileからCreate new fileを選択し
+<br>　name your file...に『assets/css/style.scss』と入力
+<br>　（『/』でリポジトリの下層フォルダが作成されます）
+<br>　テキスト編集エリアに下記を入力
+```
+---
+---
+@import 'jekyll-theme-leap-day';
+
+((以下スタイルシートを記述))
+
+((ちなみに私の場合は下記))
+h2 {
+  font-size:12pt;   
+  color:#ffffff;
+  line-height:8;
+  background-color: #4276b6;
+}
+h4 {
+  margin-top:20px;
+  font-size:11pt; 
+  font-style: italic;
+  color:#4276b6;
+  border-bottom: solid 1px #4276b6;  
+  }
+h3 {
+  font-size:10pt; 
+  color:#ffcc00;
+  text-shadow: 1px 1px 1px #888888;
+  }
+
+```
+<br>　2. _ config.yml （アンダーバーの後のスペースは不要です）
+<br>　リポジトリ直下に作成します
+<br>　私の場合下記のように、タイトルとデスクリプションを設定しています
+```
+theme: jekyll-theme-leap-day
+title: AlfredWorkflowで遊ぶページ
+description: Lesson30.GitHubのHPを作ってみる 
+```
+<br>　『:』の後のスペースがなくてエラーとなったことがありましたのでご注意を
+<br>　3.REAMME.md
+<br>　リポジトリ直下に作成します
+<br>　mdとはマークダウンファイルという意味で、HTMLタグの
+<br>　リポジトリ直下に作成します。上記cssみたいにサブフォルダではないので、
+<br>　2と3のファイルは、ローカルに作成したものを
+<br>　upload　filesでまとめてアップロードする方が楽です
+
+
 ### 1.裏技サイトを探す
 　LessonのタイトルがAlfredとは無関係になってしまいました。そう、ネタ切れです
 <br>　経験上、alfred化する場合、検索サイトのラッパーとして使うか、
