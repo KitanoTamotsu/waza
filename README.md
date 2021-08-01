@@ -1,5 +1,7 @@
 ## 　　Lesson30.　GitHubのHPを作ってみる 
 #### 開発メモ
+ワークフロー
+<br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127757986-ab910290-6835-4ddf-bc12-3cbb324bb8d3.png">
 ### 1.GitHubのHP
 　GitHubは公開用のHPのデザインが準備されています。このページがまさにそれです
 <br>　試してみましが、特に便利かどうかわかりません
@@ -103,6 +105,7 @@ description: Lesson30.GitHubのHPを作ってみる
 <br>　『〜、』『〜：』『〜に』『〜を』『〜は』『〜の』
 <br>　なお、argには裏技の文言全体をセットしています
 <br>　そのため、alfred出力を選択すると、裏技の文言全体でサーチします
+<br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127758004-c7bf4579-4235-4f23-9136-2814f41174b4.png">
 
 #### 背景
 　webサーフィン中にいろいろなターミナルに関する裏技を見ていたのですが
