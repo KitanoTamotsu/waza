@@ -23,14 +23,12 @@
 <br>　name your file...に『assets/css/style.scss』と入力
 <br>　（『/』でリポジトリの下層フォルダが作成されます）
 <br>　テキスト編集エリアに下記を入力
+<br>　なお、h2以下はこのサイトのスタイルシートになります
 ```
 ---
 ---
 @import 'jekyll-theme-leap-day';
 
-((以下スタイルシートを記述))
-
-((ちなみに私の場合は下記))
 h2 {
   font-size:12pt;   
   color:#ffffff;
