@@ -2,6 +2,9 @@
 #### 開発メモ
 ワークフロー
 <br>　<img width="600" src="https://user-images.githubusercontent.com/40127279/127757986-ab910290-6835-4ddf-bc12-3cbb324bb8d3.png">
+
+ワークフローの解説は後にして、GitHubページのカスタマイズ方法です
+
 ### 1.GitHubのHP
 　GitHubは公開用のHPのデザインが準備されています。このページがまさにそれです
 <br>　試してみましが、特に便利かどうかわかりません
@@ -16,7 +19,11 @@
 <br>　たぶん設定はこのくらい
 ### 3.作成が必要なファイルは3つ
 <br>　リポジトリページに戻って下記の3つのファイルを作成
+<br>　1.style.scss
+<br>　2. _ config.yml 
+<br>　3.README.md
 <br>　mainに置いていますが、ブランチを作りたい場合はsettingsも変更要です
+<br>　以下3ファイルの説明です
 <br>　
 <br>　1.style.scss
 <br>　add fileからCreate new fileを選択し
@@ -59,7 +66,7 @@ description: Lesson30.GitHubのHPを作ってみる
 ```
 <br>　『:』の後のスペースがなくてエラーとなったことがありましたのでご注意を
 <br>　
-<br>　3.REAMME.md
+<br>　3.README.md
 <br>　リポジトリ直下に作成します
 <br>　このファイルには、HTMLタグの一部を記号で書くことができます
 <br>　詳細は各テーマのサンプルを確認してみてください
