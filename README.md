@@ -83,7 +83,6 @@ description: Lesson30.GitHubのHPを作ってみる
 <br>　index.htmlを生成しましす
 <br>　
 <br>　2022.02.12追記
-<br>　
 <br>　README.mdのH2タグとして『##』を使っていますが、不具合がありました
 <br>　いつからかは不明ですが、『##』の後に書いた文字列が
 <br>　config.ymlで指定したtitleよりも優先されてしまいました
